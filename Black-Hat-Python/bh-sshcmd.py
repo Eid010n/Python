@@ -5,7 +5,7 @@ import paramiko
 import subprocess
 
 def ssh_command(ip, user, passwd, command):
-    client = paramike.SSHClient()
+    client = paramiko.SSHClient()
     ## client can also support using key files
     #client.load_host_keys('/home/user/.ssh/known_hosts')
     client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
