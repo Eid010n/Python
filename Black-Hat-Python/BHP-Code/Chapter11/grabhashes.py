@@ -1,6 +1,6 @@
 import sys
 import struct
-
+import mathlab
 memory_file       = "WinXPSP2.vmem"
 
 sys.path.append("/Downloads/volatility-2.3.1")
